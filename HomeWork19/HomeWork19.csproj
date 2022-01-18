@@ -55,16 +55,29 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddAnimal.xaml.cs">
+      <DependentUpon>AddAnimal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Amphibians.cs" />
+    <Compile Include="AnimalFactory.cs" />
+    <Compile Include="Birds.cs" />
+    <Compile Include="File.cs" />
+    <Compile Include="Mammals.cs" />
+    <Compile Include="NullAnimal.cs" />
+    <Compile Include="RepositoryAnimal.cs" />
+    <Page Include="AddAnimal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Animal.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="IGeneral.cs" />
+    <Compile Include="IAnimal.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

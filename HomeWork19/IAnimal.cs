@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace HomeWork19
 {
-    public interface IGeneral
+    interface IAnimal
     {
         string type { get; set; }
-
+        string view { get; set; }
         string breed { get; set; }
-
         string habitat { get; set; }
     }
 }

@@ -9,13 +9,14 @@
     <Grid>
         <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="382" Margin="223,10,0,0" VerticalAlignment="Top" Width="559" AutoGenerateColumns="false">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Тип" Width="*" Binding="{Binding type}"/>
+                <DataGridTextColumn Header="Вид" Width="*" Binding="{Binding view}"/>
                 <DataGridTextColumn Header="Порода" Width="*" Binding="{Binding breed}"/>
                 <DataGridTextColumn Header="Среда обитания" Width="*" Binding="{Binding habitat}"/>
             </DataGrid.Columns>
         </DataGrid>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Height="30" Margin="10,148,0,0" VerticalAlignment="Top" Width="201"/>
-        <Label x:Name="label" Content="Выберите тип животных:" HorizontalAlignment="Left" Height="33" Margin="10,123,0,0" VerticalAlignment="Top" Width="201"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Height="30" Margin="10,35,0,0" VerticalAlignment="Top" Width="201" SelectionChanged="comboBox_SelectionChanged"/>
+        <Label x:Name="label" Content="Выберите тип животных:" HorizontalAlignment="Left" Height="33" Margin="10,10,0,0" VerticalAlignment="Top" Width="201"/>
+        <Button x:Name="button" Content="Добавить животное" HorizontalAlignment="Left" Height="36" Margin="10,100,0,0" VerticalAlignment="Top" Width="201" Click="button_Click"/>
 
     </Grid>
 </Window>

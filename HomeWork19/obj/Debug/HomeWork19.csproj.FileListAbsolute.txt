@@ -1,0 +1,17 @@
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19.csproj.AssemblyReference.cache
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\MainWindow.g.cs
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\App.g.cs
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19_MarkupCompile.cache
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19_MarkupCompile.lref
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\bin\Debug\HomeWork19.exe.config
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\bin\Debug\HomeWork19.exe
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\bin\Debug\HomeWork19.pdb
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\MainWindow.baml
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19.g.resources
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19.Properties.Resources.resources
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19.csproj.GenerateResource.cache
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19.csproj.CoreCompileInputs.cache
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19.exe
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19.pdb
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\AddAnimal.g.cs
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\AddAnimal.baml
