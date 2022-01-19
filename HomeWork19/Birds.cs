@@ -8,17 +8,17 @@ namespace HomeWork19
 {
     class Birds:IAnimal
     {
-        public string type { get; set; }
-        public string view { get; set; }
-        public string breed { get; set; }
-        public string habitat { get; set; }
+        public string Type { get; set; }
+        public string View { get; set; }
+        public string Breed { get; set; }
+        public string Habitat { get; set; }
 
-        public Birds(string type, string view, string breed, string habitat)
+        public Birds(string Type, string View, string Breed, string Habitat)
         {
-            this.type = type;
-            this.view = view;
-            this.breed = breed;
-            this.habitat = habitat;
+            this.Type = Type;
+            this.View = View;
+            this.Breed = Breed;
+            this.Habitat = Habitat;
         }
     }
 }

@@ -15,3 +15,9 @@ E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19.exe
 E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19.pdb
 E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\AddAnimal.g.cs
 E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\AddAnimal.baml
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\bin\Debug\Antlr3.Runtime.dll
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\bin\Debug\Newtonsoft.Json.dll
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\bin\Debug\WebGrease.dll
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\bin\Debug\Antlr3.Runtime.pdb
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\bin\Debug\Newtonsoft.Json.xml
+E:\учеба\ДЗ\19\HomeWork19\HomeWork19\obj\Debug\HomeWork19.csproj.CopyComplete

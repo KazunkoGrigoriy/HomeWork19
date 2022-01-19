@@ -8,16 +8,16 @@ namespace HomeWork19
 {
     class NullAnimal:IAnimal
     {
-        public string type { get; set; }
-        public string view { get; set; }
-        public string breed { get; set; }
-        public string habitat { get; set; }
+        public string Type { get; set; }
+        public string View { get; set; }
+        public string Breed { get; set; }
+        public string Habitat { get; set; }
         public NullAnimal()
         {
-            type = "";
-            view = "Нет вида";
-            breed = "Нет породы";
-            habitat = "Нет среды обитания";
+            Type = "";
+            View = "Нет вида";
+            Breed = "Нет породы";
+            Habitat = "Нет среды обитания";
         }
     }
 }

@@ -26,6 +26,7 @@ namespace HomeWork19
     public partial class MainWindow : Window
     {
         RepositoryAnimal repositoryAnimal = new RepositoryAnimal();
+        DataFile dataFile = new DataFile();
         public MainWindow()
         {
             InitializeComponent();
@@ -36,7 +37,11 @@ namespace HomeWork19
 
         private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            dataGrid.ItemsSource = repositoryAnimal.bd.Where(t => t.type == comboBox.SelectedItem.ToString());
+
+            //dataGrid.ItemsSource = repositoryAnimal.bd.Where(t => t.Type == comboBox.SelectedItem.ToString());
+            repositoryAnimal.bd = dataFile.ReadFromFile();
+            //if (dataFile.ReadFromFile() != null) 
+                dataGrid.ItemsSource = repositoryAnimal.bd.Where(t => t.Type == comboBox.SelectedItem.ToString());//dataFile.ReadFromFile().Where(t => t.Type == comboBox.SelectedItem.ToString());
         }
       
         private void button_Click(object sender, RoutedEventArgs e)
@@ -53,7 +58,8 @@ namespace HomeWork19
                         addAnimsl.tbBreed.Text,
                         addAnimsl.tbHabitat.Text));
             }
-            dataGrid.ItemsSource = repositoryAnimal.bd.Where(t => t.type == comboBox.Text);
+            dataGrid.ItemsSource = repositoryAnimal.bd.Where(t => t.Type == comboBox.Text);
+            dataFile.WriteToFile(repositoryAnimal);
         }
     }
 }

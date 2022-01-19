@@ -8,9 +8,9 @@ namespace HomeWork19
 {
     interface IAnimal
     {
-        string type { get; set; }
-        string view { get; set; }
-        string breed { get; set; }
-        string habitat { get; set; }
+        string Type { get; set; }
+        string View { get; set; }
+        string Breed { get; set; }
+        string Habitat { get; set; }
     }
 }

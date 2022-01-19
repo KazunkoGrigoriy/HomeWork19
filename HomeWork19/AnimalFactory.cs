@@ -8,11 +8,11 @@ namespace HomeWork19
 {
     class AnimalFactory
     {
-        public static IAnimal GetAnimal(string type, string view, string breed, string habitat)
+        public static IAnimal GetAnimal(string Type, string View, string Breed, string Habitat)
         {
-            if (type == "Млекопитающие") return new Mammals(type, view, breed, habitat);
-            if (type == "Птицы") return new Birds(type, view, breed, habitat);
-            if (type == "Земноводные") return new Amphibians(type, view, breed, habitat);
+            if (Type == "Млекопитающие") return new Mammals(Type, View, Breed, Habitat);
+            if (Type == "Птицы") return new Birds(Type, View, Breed, Habitat);
+            if (Type == "Земноводные") return new Amphibians(Type, View, Breed, Habitat);
             else return new NullAnimal();
         }
     }

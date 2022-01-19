@@ -9,9 +9,9 @@
     <Grid>
         <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="382" Margin="223,10,0,0" VerticalAlignment="Top" Width="559" AutoGenerateColumns="false">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Вид" Width="*" Binding="{Binding view}"/>
-                <DataGridTextColumn Header="Порода" Width="*" Binding="{Binding breed}"/>
-                <DataGridTextColumn Header="Среда обитания" Width="*" Binding="{Binding habitat}"/>
+                <DataGridTextColumn Header="Вид" Width="*" Binding="{Binding View}"/>
+                <DataGridTextColumn Header="Порода" Width="*" Binding="{Binding Breed}"/>
+                <DataGridTextColumn Header="Среда обитания" Width="*" Binding="{Binding Habitat}"/>
             </DataGrid.Columns>
         </DataGrid>
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Height="30" Margin="10,35,0,0" VerticalAlignment="Top" Width="201" SelectionChanged="comboBox_SelectionChanged"/>
