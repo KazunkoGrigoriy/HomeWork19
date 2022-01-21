@@ -71,8 +71,11 @@
     <Compile Include="AnimalFactory.cs" />
     <Compile Include="Birds.cs" />
     <Compile Include="DataFile.cs" />
+    <Compile Include="IModel.cs" />
     <Compile Include="Mammals.cs" />
+    <Compile Include="Model.cs" />
     <Compile Include="NullAnimal.cs" />
+    <Compile Include="Presenter.cs" />
     <Compile Include="RepositoryAnimal.cs" />
     <Page Include="AddAnimal.xaml">
       <SubType>Designer</SubType>

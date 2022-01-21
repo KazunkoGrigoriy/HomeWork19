@@ -33,33 +33,38 @@ namespace HomeWork19
             comboBox.Items.Add("Млекопитающие");
             comboBox.Items.Add("Птицы");
             comboBox.Items.Add("Земноводные");
+
+            Presenter presenter = new Presenter();
+
+            button.Click += (s, e) => presenter.Add(this);
+
+            comboBox.SelectionChanged += (s, e) => presenter.ComboSelection(this);
         }
+
+
 
         private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
-            //dataGrid.ItemsSource = repositoryAnimal.bd.Where(t => t.Type == comboBox.SelectedItem.ToString());
-            repositoryAnimal.bd = dataFile.ReadFromFile();
-            //if (dataFile.ReadFromFile() != null) 
-                dataGrid.ItemsSource = repositoryAnimal.bd.Where(t => t.Type == comboBox.SelectedItem.ToString());//dataFile.ReadFromFile().Where(t => t.Type == comboBox.SelectedItem.ToString());
+        //    repositoryAnimal.bd = dataFile.ReadFromFile();
+        //    dataGrid.ItemsSource = repositoryAnimal.bd.Where(t => t.Type == comboBox.SelectedItem.ToString());
         }
       
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            AddAnimsl addAnimsl = new AddAnimsl();
-            addAnimsl.Owner = this;
-            addAnimsl.ShowDialog();
-            if ((bool)addAnimsl.DialogResult)
-            {
-                repositoryAnimal.Add(
-                    AnimalFactory.GetAnimal(
-                        comboBox.Text,
-                        addAnimsl.tbView.Text,
-                        addAnimsl.tbBreed.Text,
-                        addAnimsl.tbHabitat.Text));
-            }
-            dataGrid.ItemsSource = repositoryAnimal.bd.Where(t => t.Type == comboBox.Text);
-            dataFile.WriteToFile(repositoryAnimal);
+        //    AddAnimsl addAnimsl = new AddAnimsl();
+        //    addAnimsl.Owner = this;
+        //    addAnimsl.ShowDialog();
+        //    if ((bool)addAnimsl.DialogResult)
+        //    {
+        //        repositoryAnimal.Add(
+        //            AnimalFactory.GetAnimal(
+        //                comboBox.Text,
+        //                addAnimsl.tbView.Text,
+        //                addAnimsl.tbBreed.Text,
+        //                addAnimsl.tbHabitat.Text));
+        //    }
+        //    dataGrid.ItemsSource = repositoryAnimal.bd.Where(t => t.Type == comboBox.Text);
+        //    dataFile.WriteToFile(repositoryAnimal);
         }
     }
 }
